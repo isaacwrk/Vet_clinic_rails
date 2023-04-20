@@ -1,0 +1,42 @@
+<%= form_with(model: prescription) do |form| %>
+  <% if prescription.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(prescription.errors.count, "error") %> prohibited this prescription from being saved:</h2>
+
+      <ul>
+        <% prescription.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :vet_prescription, style: "display: block" %>
+    <%= form.text_area :vet_prescription %>
+  </div>
+
+  <div>
+    <%= form.label :prescribed_by, style: "display: block" %>
+    <%= form.text_area :prescribed_by %>
+  </div>
+
+  <div>
+    <%= form.label :disease, style: "display: block" %>
+    <%= form.text_area :disease %>
+  </div>
+
+  <div>
+    <%= form.label :livestock, style: "display: block" %>
+    <%= form.text_area :livestock %>
+  </div>
+
+  <div>
+    <%= form.label :completed, style: "display: block" %>
+    <%= form.check_box :completed %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
