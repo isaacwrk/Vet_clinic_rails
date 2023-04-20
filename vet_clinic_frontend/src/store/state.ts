@@ -3,7 +3,7 @@ export type Prescription = {
     vet_prescription: string;
     prescribed_by: string;
     disease:string;
-    livestrock:string;
+    livestock:string;
     completed:boolean;
     editing:boolean;
 };
