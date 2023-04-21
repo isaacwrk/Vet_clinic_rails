@@ -19,7 +19,8 @@ export default defineComponent({
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="https://bulma.io">
-        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
+        <img src="https://images.vexels.com/media/users/3/144928/isolated/lists/ebbccaf76f41f7d83e45a42974cfcd87-dog-illustration.png" />
+        <h1 class="is-success has-text-weight-bold is-size-3	">Vet clinic</h1>
       </a>
     </div>
     <div id="navbarBasicExample" class="navbar-menu">
@@ -29,7 +30,7 @@ export default defineComponent({
     </div>
   </nav>
   <div class="container mx-auto mt-4">
-    <h1 class="is-size-3 has-text-centered p-2 has-text-weight-bold is-success">Vet clinic Frontend</h1>
+    <h1 class="is-size-3 has-text-centered p-2 has-text-weight-bold is-success">Vet clinic</h1>
     <h3 class="has-text-centered p-2">Manage records of treated livestock in your farm</h3>
     <div v-if="loading">
       <h3 class="has-text-centered mt-4">Loading...</h3>
