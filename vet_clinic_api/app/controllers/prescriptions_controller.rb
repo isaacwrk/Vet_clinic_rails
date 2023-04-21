@@ -4,10 +4,12 @@ class PrescriptionsController < ApplicationController
   # GET /prescriptions or /prescriptions.json
   def index
     @prescriptions = Prescription.all
+    render json: @prescriptions
   end
 
   # GET /prescriptions/1 or /prescriptions/1.json
   def show
+    render json: @prescriptions
   end
 
   # GET /prescriptions/new
