@@ -36,7 +36,7 @@ export default defineComponent({
       <h3 class="has-text-centered mt-4">Loading...</h3>
     </div>
     <div v-else>
-      <p class="has-text-centered mt-2">{{ completedCount }} of {{ totalCount }} treated.</p>
+      <p class="has-text-centered mt-2">{{ completedCount }} of {{ totalCount  }} treated.</p>
       <PrescriptionList />
     </div>
   </div>

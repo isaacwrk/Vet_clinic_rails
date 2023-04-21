@@ -8,7 +8,7 @@ export type Getters = {
   };
   export const getters: GetterTree<State, State> & Getters = {
     completedPrescriptionCount(state) {
-      return state.prescriptions.filter((prescription) => prescription.completed).length;
+        return state.prescriptions.filter(prescription => prescription.completed).length
     },
     totalPrescriptionCount(state) {
       return state.prescriptions.length;
