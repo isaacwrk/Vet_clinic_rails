@@ -18,7 +18,7 @@ export default defineComponent({
 <template>
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
+      <a class="navbar-item">
         <img src="https://images.vexels.com/media/users/3/144928/isolated/lists/ebbccaf76f41f7d83e45a42974cfcd87-dog-illustration.png" />
         <h1 class="is-success has-text-weight-bold is-size-3	">Vet clinic</h1>
       </a>
