@@ -4,25 +4,25 @@
       <div class="modal-content">
         <form @submit.prevent="createPrescription">
           <div class="field">
-            <label class="label">Prescribed By</label>
+            <label class="label has-text-white">Prescribed By</label>
             <div class="control">
               <input v-model="prescribedBy" class="input" type="text" placeholder="Enter prescriber's name" />
             </div>
           </div>
           <div class="field">
-            <label class="label">Prescription</label>
+            <label class="label has-text-white">Prescription</label>
             <div class="control">
               <textarea v-model="prescription" class="textarea" placeholder="Enter prescription"></textarea>
             </div>
           </div>
           <div class="field">
-            <label class="label">Disease</label>
+            <label class="label has-text-white">Disease</label>
             <div class="control">
               <input v-model="disease" class="input" type="text" placeholder="Enter name of disease" />
             </div>
           </div>
           <div class="field">
-            <label class="label">Livestock</label>
+            <label class="label has-text-white">Livestock</label>
             <div class="control">
               <input v-model="livestock" class="input" type="text" placeholder="Enter livestock" />
             </div>
