@@ -25,7 +25,6 @@ export default defineComponent({
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
         <a class="navbar-item"> Home </a>
-        <a class="navbar-item"> About </a>
       </div>
     </div>
   </nav>
