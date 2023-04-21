@@ -7,14 +7,14 @@
     <td>{{ prescribed_by }}</td>
     <td>{{ disease }}</td>
     <td>{{ livestock }}</td>
-    <td>
-      <span class="icon" @click="viewPrescription()">
+    <td style="cursor: pointer;">
+      <span class="icon has-text-info	" @click="viewPrescription()">
         <i class="fa fa-eye"></i>
       </span>
-      <span class="icon" @click="editPrescription()">
+      <span class="icon has-text-success" @click="editPrescription()">
         <i class="fa fa-edit"></i>
       </span>
-      <span class="icon" @click="removePrescription()">
+      <span class="icon has-text-danger" @click="removePrescription()">
         <i class="fa fa-trash"></i>
       </span>
     </td>
