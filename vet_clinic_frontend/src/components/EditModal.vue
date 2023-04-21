@@ -42,7 +42,7 @@
     </div>
   </template>
   <script lang="ts">
-  import { defineComponent, reactive, toRefs, computed, onMounted } from "vue";
+  import { reactive, toRefs, onMounted } from "vue";
   import { useStore } from "@/store";
   import { Prescription } from "@/store/state";
   import { MutationType } from "@/enums/MutationType";

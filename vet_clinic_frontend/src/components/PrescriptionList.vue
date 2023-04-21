@@ -13,7 +13,15 @@
       </thead>
       <tbody v-if="prescriptions">
         <tr v-for="prescription in prescriptions" :key="prescription.id">
-          <PrescriptionListItem v-bind="prescription" />
+          <!-- can i use v-bind="prescription "-->
+          <PrescriptionListItem 
+            :vet_prescription="prescription.vet_prescription"
+            :prescribed_by="prescription.prescribed_by"
+            :disease="prescription.disease"
+            :livestock="prescription.livestock"
+            :completed="prescription.completed"
+            :id="prescription.id"
+           />
         </tr>
       </tbody>
       <tfoot>
