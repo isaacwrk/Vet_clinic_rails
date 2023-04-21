@@ -8,12 +8,12 @@
             <div class="media">
               <div class="media-content">
                 <p class="title is-4">Livestock: {{ prescription.livestock }}</p>
-                <p class="subtitle is-6"><b>Prescribed by:</b> {{ prescription.prescribed_by }}</p>
+                <p class="subtitle is-6 mt-2"><b>Prescribed by:</b> {{ prescription.prescribed_by }}</p>
                 <p class="subtitle is-6"><b>Disease:</b> {{ prescription.disease }}</p>
               </div>
             </div>
             <div class="content">
-              <p class="subtitle is-6">Prescription: {{ prescription.vet_prescription }}</p>
+              <p class="subtitle is-6"><b>Prescription:</b> {{ prescription.vet_prescription }}</p>
             </div>
           </div>
         </div>
