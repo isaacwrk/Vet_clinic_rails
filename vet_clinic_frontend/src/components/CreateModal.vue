@@ -69,6 +69,7 @@
         state.prescribedBy = "";
         state.disease = "";
         state.livestock = "";
+        store.commit(MutationType.SetCreateModal, false);
       };
       const closeModal = () => {
         store.commit(MutationType.SetCreateModal, false);

@@ -89,6 +89,7 @@
         state.prescribedBy = "";
         state.disease = "";
         state.livestock = "";
+        store.commit(MutationType.SetEditModal, { showModal: false, prescriptionId: undefined });
       };
       const closeModal = () => {
         store.commit(MutationType.SetEditModal, { showModal: false, prescriptionId: undefined });
